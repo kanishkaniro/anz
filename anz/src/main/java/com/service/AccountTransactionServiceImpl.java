@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.anz.model.Account;
 import com.anz.model.AccountTransaction;
@@ -16,8 +18,8 @@ import com.anz.model.Currency;
  * @author kanishka
  *
  */
-
-public class AccountTransactionServiceImpl {
+@Service
+public class AccountTransactionServiceImpl implements AccountTransactionService {
 
 	
 	public List<AccountTransaction> getAccountTransactionListByAccountNumber(String accountNumber) {
