@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-import com.service.AccountTransactionServiceImpl;
+import com.anz.service.AccountTransactionServiceImpl;
 
 /**
  * @author kanishka

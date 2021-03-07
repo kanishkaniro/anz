@@ -1,12 +1,9 @@
 /**
  * 
  */
-package com.service;
+package com.anz.service;
 
 import java.util.List;
-
-import org.springframework.stereotype.Service;
-
 import com.anz.model.AccountTransaction;
 
 /**
